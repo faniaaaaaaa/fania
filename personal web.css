@@ -33,13 +33,11 @@ body{
     font-style: italic;
   }
     
-  li a:hover:not(.active) {
+  li a:hover {
     color: #004258;
   }
     
-  .active {
-    color: #004258;
-  }
+ 
   
   @media screen and (max-width: 600px) {
     ul li {float: none;}
@@ -96,7 +94,7 @@ body{
     background-color: #FFF8EA;
     transition: 0.3s;
     width: 300px;
-    min-height: 350px;
+    min-height: 250px;
     padding: 32px;
     margin: 81px 0;
     text-align: center;
@@ -160,30 +158,22 @@ body{
     width: 24.99999%;
   }
   
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
+
 
   .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
+
+  
   
   .footer-main {
     background-color:#9E7676;
-    padding: 24px 60px;
+    padding: 24px 10px;
     color: white;
   }
+  
   
   .footer-grid {
     display: grid;
@@ -195,12 +185,11 @@ body{
     justify-items: center;
   }
   
-  @media (max-width: 1024px) {
-    .footer-grid {
-      padding-left: 20px;
-    }
-  }
-  
   .footer-grid p {
     margin: 10px 0;
   }
+
+table {
+  color: white;
+}
+
